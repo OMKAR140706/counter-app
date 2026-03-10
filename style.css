@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("https://plus.unsplash.com/premium_photo-1679862938135-aff7da998436?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1287");
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 500px;
+    font-size: 20px;
+    color: black
+    
+    
+}
+ 
+h1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2
+{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button
+{
+  
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+#increment-btn
+{
+    background: darkred;
+}
+#save-btn
+{
+    background: darkgreen;
+    margin-top: 20px;
+}
+.btn-container/*so that increment and save buttons are one below other */
+{
+    display: flex;
+    flex-direction:column;/* otherwise it would appear increment  save   previous entries as seperate coluns (like all three in one line*/
+    justify-content: center;
+    align-items: center;
+}
